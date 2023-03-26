@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    box-sizing: border-box;
+}
+
+.header {
+
+    height: 80px;
+    display: flex;
+}
+
+
+.navbar {
+    margin-top: 6px;
+    margin-left: 66px;
+}
+
+.orderlist {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.list {
+    padding: 13px;
+
+}
+
+.logo {
+    margin: 44px;
+    margin-left: 236px;
+}
+
+.main-img {
+    margin-left: 30px;
+}
+
+.main-img img {
+    height: 432px;
+}
+
+
+
+.btn {
+    width: 99px;
+    border-radius: 9px;
+    border: none;
+    margin: 15px;
+    padding: 9px;
+    background-color: rgb(34, 34, 34);
+
+}
+
+/* .........Section-1...... */
+
+.section-1 {
+
+    float: right;
+    height: 741px;
+    width: 952px;
+    margin-top: -55px;
+
+}
+
+.on-ear {
+
+    margin-left: 318px;
+    margin-top: 158px;
+}
+
+.description {
+
+    width: 253px;
+    margin-left: 391px;
+    margin-top: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+
+    margin: 42px 0px;
+    font-size: 2.3rem;
+    margin-top: 3px;
+}
+
+.subheading {
+
+    margin-bottom: 31px;
+}
+
+.addtobag {
+
+    margin: 23px -26px;
+}
+
+.button p,button h3{
+
+display: inline;
+    
+}
+
+.button  {
+
+  width: 266px;
+  padding: 12px;
+  
+}
+
+.button button img,.button button h3, .button button p{
+    margin: -5px 7px;
+    background-color: transparent;
+   
+ }
+.button button {
+    margin: 0px 13px;
+    padding: 11px;
+  border-radius: 12px;
+  background-color: rgb(34, 34, 34);
+  border: none;
+
+ 
+}
+
+
+
+
+
+
+
+/* ........Section-CompanyLogo......... */
+
+.companylogo {
+    position: absolute;
+    /* border: 2px solid red; */
+    left: 44px;
+    top: 762px;
+}
+
+.images {
+
+    margin-left: 272px;
+
+}
+
+.images img {
+    padding: 40px;
+}
+
+/* ......section-2..... */
+
+.section-2 {
+    margin-top: 842px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-1 {
+    margin-left: 45px;
+}
+
+.one {
+    margin-top: 23px;
+    margin-right: 509px;
+}
+
+.two {
+    margin-right: 614px;
+    margin-top: 23px;
+}
+
+.three {
+    margin-right: 543px;
+    margin-top: 23px;
+}
+
+.four {
+    margin-right: 450px;
+    margin-top: 23px;
+
+}
+
+.specimg {
+    float: right;
+    margin-top: -372px;
+    margin-right: 419px;
+}
+
+/* ......section-3........ */
+
+.section-3 {
+    margin-top: 99px;
+    text-align: center;
+
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.caseimg {
+
+    margin-right: 84px;
+}
+
+.caseimg img{
+    height: 290px;
+}
+.case-description {
+    width: 265px;
+}
+
+.case-description p {
+    text-align: left;
+}
+
+.button-2 {
+    font-size: 1.0rem;
+    margin-top: 32px;
+    margin-right: 79px;
+    width: 187px;
+    padding: 12px;
+    border: none;
+    background-color: rgb(31, 30, 30);
+    border-radius: 9px
+}
+
+.button-2 img {
+    float: left;
+}
+
+/* ..........Section-4........ */
+
+
+.section-4 {
+    margin-top: 66px;
+    width: 963px;
+
+
+}
+
+.container-3 {
+
+   /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    width: 646px;
+    margin-left: 220px;
+    width: 849px;
+    padding: 51px;
+    background: #181a1b;
+    border-radius: 9px;
+}
+
+.offer {
+    margin-left: 60px;
+    margin-top: 89px;
+    width: 283px;
+    height: 179px;
+}
+
+.button-3 {
+    width: 138px;
+    margin: 28px 0px;
+    padding: 12px;
+    border-radius: 9px;
+    border: none;
+
+}
+
+
+.offer h2,.offer p,.buynow-img , .offer div {
+    background-color: transparent;
+}
+
+.offer h2,.offer p {
+    background-color: #181a1b;
+}
+
+ .offer div {
+    background-color: #181a1b;
+}
+
+
+.button-3 img {
+    float: left;
+    margin-top: -2px;
+
+}
+
+.buynow-img img {
+    margin-top: 59px;
+    background-color: #181a1b;
+}
+
+/* ........Section-5........ */
+.section-5 {
+
+    text-align: center;
+    margin-top: 70px;
+    height: 840px;
+}
+
+.product {
+    background: #181a1b;
+    border-radius: 8px;
+    width: 164px;
+    height: 123px;
+}
+
+.product-items {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+    width: 275px;
+    height: 600px;
+    margin-left: 496px;
+    margin-top: 40px;
+}
+
+
+.product-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    background: #181a1b;
+    border-radius: 8px;
+    margin-top: 12px;
+    padding: 12px;
+
+}
+
+.product-info p {
+    text-align: left;
+}
+
+
+.product img {
+    width: 91px;
+    height: 106px;
+    margin-top: -41px;
+
+}
+
+.product-info div img {
+    height: 20px;
+    width: 16px;
+    position: relative;
+    top: 26px;
+
+}
+
+.product-info div,
+.product-info p,
+.product img,
+.product-info span,
+.product-info img {
+
+    background-color: transparent;
+
+}
+
+/*..........Footer section....... */
+
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product-menu{
+
+    margin: 39px 104px;
+
+}
+.support-menu{
+
+    margin: 39px 4px;
+
+}
+
+.orderlists{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 26px;
+}
+.orderlists li a{
+   
+    text-decoration: none;
+}
+
+.subscription{
+    margin-left: 139px;
+    margin-top: 50px;
+
+}
+.subscription input{
+ 
+   
+    width: 297px;
+    height: 56px;
+    padding: 21px;
+    border-radius: 9px;
+    background-color: rgb(80, 79, 79);
+    margin: -8px;
+
+}
+.sub-btn{
+    margin: -43px 144px;
+    display: flex;
+    background-color: black;
+    border-radius: 13px;
+}
+
+.sub-btn img, .sub-btn p {
+
+    margin: 8px 8px;
+}
+
+.sub-btn img,.sub-btn p,.subscription input, .subscription div{
+background-color: transparent;
+}
+
+.subscription div{
+    background-color: black;
+    padding: 2px;
+}
+
+.footer-logo{
+    position: relative;
+    left: 865px;
+    margin-top: -88px;
+}

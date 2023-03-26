@@ -1,0 +1,428 @@
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+.header {
+    height: 1099px;
+    color: white;
+
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    height: 1099px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('photos/mainBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+
+}
+
+
+.navbar {
+
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+
+}
+
+.mainlogo {
+    margin: 19px 175px;
+    height: 55px;
+}
+
+
+.mainlogo img {
+
+    margin-left: 74px;
+    height: 50px;
+}
+
+.orderlist {
+
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    margin: 16px 64px;
+}
+
+.list {
+
+    padding: 21px;
+
+}
+
+.list a {
+    color: white;
+}
+
+hr {
+    width: 878px;
+    margin-left: 190px;
+    margin-top: -1013px;
+}
+
+.header h1 {
+    font-size: 3.4rem;
+    width: 506px;
+    margin-top: 145px;
+    margin-left: 244px;
+    line-height: 66px;
+
+}
+
+.header h3 {
+    margin-top: 38px;
+    margin-left: 251px;
+    width: 457px;
+
+}
+
+.button {
+    margin-top: 34px;
+    margin-left: 252px;
+    padding: 9px;
+    color: white;
+    border-radius: 9px;
+    background-color: rgb(86 86 221);
+    border: none;
+    font-weight: bold;
+
+}
+
+.section {
+    margin-top: 34px;
+    color: black;
+}
+
+.section-container {
+
+    /* border: 2px solid black; */
+    height: 2812px;
+    width: 634px;
+    margin-left: 319px;
+    border-radius: 36px;
+    margin-top: -114px;
+    background-color: rgb(243 229 229);
+}
+
+.logo {
+    display: flex;
+    font-size: 2.4rem;
+    justify-content: center;
+
+}
+
+.section p {
+    padding: 12px;
+    color: blueviolet;
+
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.1rem;
+    margin-top: 104px;
+}
+
+.cards{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 45px;
+    column-gap: 10px; 
+     justify-content: center;
+     height: 309px;
+   margin-top: 64px;
+   padding: 28px;
+
+}
+
+.card-img img{
+   
+    height: 200px;
+    width: 200px; 
+    border-radius: 20px;
+   
+  
+}
+
+
+#img1{
+    margin-top: -31px;
+}
+#img2{
+    margin-top: -12px;
+}
+#img3{
+    margin-top: 11px;
+}
+#img4{
+    margin-top: 32px;
+}
+#img5{
+    margin-top: 15px;
+}
+#img6{
+    margin-top: -3px;
+}
+#img7{
+    margin-top: -px;
+}
+#img8{
+    margin-top: 20px;
+}
+#img9{
+    margin-top:42px;
+}
+
+.price{
+    background-color: white;
+    border-radius: 18px;
+    padding: 13px;
+
+ 
+}
+
+
+
+.btn{
+    float: right;
+    margin-top: -48px;
+    padding: 7px;
+    border-radius: 37px;
+    width: 75px;
+    height: 36px;
+    background-color: rgb(120, 120, 216);
+    font-weight: bold;
+    color:white;
+    border: none;
+}
+
+
+.price p{
+    margin-left: -10px;
+}
+
+
+.trendysection{
+
+    height: 387px;
+    margin-top: 870px;
+    
+}
+
+.box-1{
+    background-color: rgb(120, 120, 216);
+    height: 137px;
+    width: 239px;
+    padding: 23px;
+    border-bottom-right-radius: 32px;
+    margin-top: 152px;
+   
+}
+.box-2{
+    background-color: white;
+    height: 165px;
+    width: 172px;
+    border-radius: 29px;
+    margin-top: -22px;
+    margin-left: 25px;
+
+}
+
+
+.box-2 img{
+    height: 226px;
+    width: 219px;
+    margin-left: 18px;
+    border-radius: 32px;
+    margin-top: -78px;
+}
+
+.trendy-description{
+    float: right;
+    margin-top: -214px;
+    width: 300px;
+}
+
+.trendy-description h1{
+ 
+    font-size: 2.3rem;
+
+
+}
+.trendy-description p{
+    margin-top: 16px;
+    color:black;
+    margin-left: -9px;
+
+}
+.trendy-description  .button{
+    margin-left: 5px;
+    margin-top: 4px;
+
+}
+
+/* Trendy section-2 */
+
+.trendysection-2{
+    margin-top: -187px;
+    height:250px;
+   
+}
+.trendysection-2 .box-1{
+    margin-left: 350px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 34px;
+    width: 308px;
+    margin-left: 280px;
+
+}
+
+.trendysection-2 .box-2{
+    margin-left: 7px;
+    width: 235px;
+    border-radius: 32px;
+}
+
+.trendysection-2 .box-2 img{
+    margin-left: 0px;
+}
+
+.trendysection-2 .trendy-description{
+   
+    float: left;
+    width: 253px;
+    margin-left: 20px;
+}
+
+/* .......Subscribe-box........ */
+
+
+.subscribe-box{
+    /* border: 2px solid black; */
+    height: 215px;
+    width: 495px;
+    margin-left: 21px;
+    margin-top: 40px;
+    padding: 49px;
+    border-radius: 27px;
+    background-color: rgb(120, 120, 216);
+    color: white;
+}
+
+
+.subscribe-box p{
+    color: white;
+    margin: 8px 22px;
+    font-size: 1rem;
+    text-align: center;
+
+}
+.box{
+    font-size: 1.7rem;
+}
+
+.subscribe-box input, .subscribe-box div{
+   
+    display: inline-block;
+}
+
+
+.subscribe-box input{
+
+    color: white;
+    padding-left: 38px;
+    width: 233px;
+    height: 39px;
+    border-radius: 33px;
+    font-size: 1.1rem;
+    background-color: rgb(97 97 195);
+    margin-left: 26px;
+  
+    border: none;
+}
+
+
+
+.subscribe-box img{
+
+    margin-left: -268px;
+margin-top: -86px;
+}
+
+.sub-button button{
+     margin-left: 288px; 
+    padding: 9px 19px;
+    border-radius: 17px; 
+    border: none;
+
+}
+
+.sub-button img{
+    height: 18px;
+    width: 17px;
+}
+
+.footer{
+    display: flex;
+    gap: 42px;
+    margin-left: 62px;
+    margin-top: 87px;
+}
+
+.footer-column .orderlists{
+    display: flex;
+    flex-direction: column;
+    margin-left: 23px;
+    
+   
+} 
+.orderlists li{
+    list-style: none;
+}
+
+.orderlists li a{
+    color: black;
+   
+}
+.footer-column h3{
+    margin-left: 20px;
+    margin-top: 12px;
+
+}
+.footer-logo img{
+  
+    margin: 2px 14px;
+    margin-left: -4px;
+}
+.footer-column img{
+
+
+    height: 30px;
+    margin-top: 10px;
+}
+
+ .footer-logo {
+    display: flex;
+ }
+
+ .copyright p{
+    margin-left: -14px;
+    width: 108px;
+    color: black;
+ }
