@@ -1,0 +1,125 @@
+*{
+
+    background-color: rgb(231 223 223);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Manrope', sans-serif;
+}
+
+.header{
+    display: flex;
+    margin: 39px 60px;
+   
+}
+
+.orderlists{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   
+  
+}
+
+.orderlists li{
+    cursor: pointer;
+}
+.nav{
+    margin-left: 554px;
+}
+
+.orderlists li a{
+    text-decoration: none;
+    margin: 12px;
+    color: black;
+  
+}
+.orderlists {
+    margin-left: 171px;
+    font-weight: bold;
+}
+
+
+
+.orderlists{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   
+  
+}
+
+.orderlists li{
+    cursor: pointer;
+}
+.nav{
+    margin-left: 554px;
+}
+
+.orderlists li a{
+    text-decoration: none;
+    margin: 12px;
+  
+}
+.orderlists {
+    margin-left: 171px;
+    font-weight: bold;
+}
+
+
+.header img{
+    height: 40px;
+    width: 124px;
+    margin-top: 5px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 109px;
+    height: 391px;
+}
+
+.contact-form{
+    text-align: center;
+}
+
+
+
+.form, .contact-form h1, .form form,.form div, .form div label, .form label input{
+    background-color: transparent;
+}
+
+.form{
+
+    box-shadow: 0 0 10px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.form div{
+    margin:12px 18px;
+
+}
+
+.form div input{
+    border: none;
+    padding: 5px;
+    margin: 4px;
+}
+
+.form label{
+    font-weight: bold;
+}
+
+.button button{
+    width: 213px;
+    padding: 4px;
+    border-radius: 14px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: -8px;
+    background-color: #20bc7e;
+    font-family: 'Manrope', sans-serif;
+}

@@ -1,0 +1,153 @@
+*{
+    background-image: url(assets/stethoscope.png) cover;
+    background-color: rgb(231 223 223);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+
+.header{
+    display: flex;
+    margin: 39px 60px;
+}
+
+.orderlists{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   
+}
+
+.orderlists li{
+    cursor: pointer;
+}
+.nav{
+    margin-left: 554px;
+}
+
+.orderlists li a{
+    text-decoration: none;
+    margin: 12px;
+    color: black;
+  
+}
+.orderlists {
+    margin-left: 171px;
+    font-weight: bold;
+}
+
+
+
+.orderlists{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   
+  
+}
+
+.orderlists li{
+    cursor: pointer;
+}
+.nav{
+    margin-left: 554px;
+}
+
+.orderlists li a{
+    text-decoration: none;
+    margin: 12px;
+  
+}
+.orderlists {
+    margin-left: 171px;
+    font-weight: bold;
+}
+
+
+.header img{
+    height: 40px;
+    width: 124px;
+    margin-top: 5px;
+}
+
+.description{
+
+   
+    height: 430px;
+    width: 426px;
+    margin-left: -542px;
+    margin-top: 291px;
+}
+.description h1{
+    font-size: 2.8rem;
+    margin-top: 2px;
+}
+
+.description p{
+    margin-top: -23px;
+}
+
+
+.topAngle{
+    margin-top: 2px;
+}
+
+.bottomAngle{
+    float: right;
+}
+.mouse{
+    height: 23px;
+    position: absolute;
+    left: 601px;
+    top: 567px;
+}
+
+.btn{
+    margin: 12px;
+    padding: 12px;
+    border-radius: 19px;
+    width: 175px;
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: white;
+    background-color:#20bc7e;
+    margin-left: 4px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+
+
+}
+
+.image{
+    position: absolute;
+    left: 798px;
+    top: 261px;
+    background-color: transparent;
+
+}
+.greenbox, .yellowbox, .doctorimg{
+    height: 400px;
+    width: 400px;
+}
+.yellowbox{
+    position: absolute;
+    right: 0px;
+    height: 313px;
+    width: 322px;
+    top: 77px;
+    background-color: transparent;
+    
+}
+
+.doctorimg{
+    position: absolute;
+    right: -3px;
+    top: -159px;
+    background-color: transparent;
+    height: 579px;
+    width: 424px;
+}
+

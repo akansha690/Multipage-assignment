@@ -1,0 +1,138 @@
+ *{
+   
+    background-color: rgb(231 223 223);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Manrope', sans-serif;
+ }
+
+ .header{
+    display: flex;
+    margin: 39px 60px;
+   
+}
+
+.orderlists{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   
+  
+}
+
+.orderlists li{
+    cursor: pointer;
+}
+.nav{
+    margin-left: 554px;
+}
+
+.orderlists li a{
+    text-decoration: none;
+    margin: 12px;
+  
+}
+.orderlists {
+    margin-left: 171px;
+    font-weight: bold;
+}
+
+
+
+.orderlists{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   
+  
+}
+
+.orderlists li{
+    cursor: pointer;
+    
+}
+.nav{
+    margin-left: 554px;
+}
+
+.orderlists li a{
+    text-decoration: none;
+    margin: 12px;
+    color: black;
+  
+}
+.orderlists {
+    margin-left: 171px;
+    font-weight: bold;
+    
+}
+
+
+.header img{
+    height: 40px;
+    width: 124px;
+    margin-top: 5px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -59px;
+    height: 487px;
+    
+}
+
+.main{
+
+    height: 310px;
+    width: 618px;
+    box-shadow: 0px 0px 10px;
+    border-radius: 15px;
+    background-color: white;
+}
+.main p{
+    text-align: center;
+    background-color: transparent;
+    margin-top: -21px;
+}
+.main h1{
+    font-size: 2.4rem;
+    color: #20bc7e;
+    text-align: center;
+    background-color: transparent;
+}
+
+.container{
+    display: flex;
+    background-color: transparent;
+    
+}
+
+.box{
+    margin-left: 37px;
+    box-shadow: 0px 0px 10px;
+    background-color: antiquewhite;
+    width: 146px;
+    height: 68px;
+    border-radius: 15px;
+    padding: 4px;
+    margin-top: 24px;
+}
+
+
+.box p{
+    margin-top: 5px;
+    margin-bottom: -8px;
+}
+
+.box .number{
+    color: #20bc7e;
+    font-weight: bold;
+}
+
+.box p{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
